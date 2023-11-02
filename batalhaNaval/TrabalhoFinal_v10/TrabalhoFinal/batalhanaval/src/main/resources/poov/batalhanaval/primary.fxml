@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="590.0" style="-fx-background-color: #140759; -fx-border-color: #fbc632;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poov.batalhanaval.controller.PrimaryController">
+   <children>
+      <Button fx:id="jogarButton" layoutX="54.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToSecondary" prefHeight="47.0" prefWidth="482.0" style="-fx-border-color: #fbc632; -fx-background-color: #2f078e;" text="Jogar" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font></Button>
+      <Button fx:id="opcaoButton" layoutX="54.0" layoutY="256.0" mnemonicParsing="false" onAction="#opcaoClicado" prefHeight="47.0" prefWidth="482.0" style="-fx-border-color: #fbc632; -fx-background-color: #2f078e;" text="Opções" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font></Button>
+      <Button fx:id="sairButton" layoutX="54.0" layoutY="323.0" mnemonicParsing="false" onAction="#sairClicado" prefHeight="47.0" prefWidth="482.0" style="-fx-border-color: #fbc632; -fx-background-color: #2f078e;" text="Sair" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font></Button>
+      <ImageView fx:id="imageView" fitHeight="163.0" fitWidth="377.0" layoutX="108.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/batalhaNavalicon.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
